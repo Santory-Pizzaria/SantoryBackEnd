@@ -1,18 +1,12 @@
 from django.db import models
+from core.models.endereco import Endereco
 
 class Usuario(models.Model):
-    TIPOS = [
-        ('administrador', 'Administrador'),
-        ('atendente', 'Atendente'),
-        ('pizzaiolo', 'Pizzaiolo'),
-        ('entregador', 'Entregador'),
-        ('cliente', 'Cliente'),
-    ]
     nome = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
     senha = models.CharField(max_length=255)
     telefone = models.CharField(max_length=20)
-    tipo = models.CharField(max_length=20, choices=TIPOS)
+    endereco = models.ForeignKey(Endereco, on_delete=models.CASCADE)
     
     def __str__(self):
-        return f"{self.id} - {self.nome} - {self.tipo}"
+        return f"{self.id} - {self.nome} - {self.email}"
