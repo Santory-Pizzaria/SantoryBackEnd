@@ -13,9 +13,9 @@ router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'usuario', UsuarioViewSet, basename='usuario')
-router.register(r'produtos', ProdutoViewSet, basename='produtos')
+router.register(r'produtos', ProdutoViewSet, basename='produto')
 router.register(r'endereco', EnderecoViewSet, basename='endereco')
-router.register(r'pedidos', PedidoViewSet, basename='pedidos')
+router.register(r'pedidos', PedidoViewSet, basename='pedido')
 router.register(r'itempedido', ItemPedidoViewSet, basename='itempedido')
 router.register(r'reservas', ReservaViewSet, basename='reserva')
 router.register(r'pizzas', PizzaViewSet, basename='pizza')
@@ -40,4 +40,6 @@ urlpatterns = [
     ),
     # API
     path('api/', include(router.urls)),
+    path('api/auth/', include('djoser.urls')),
+    path('api/auth/', include('djoser.urls.jwt')),
 ]
