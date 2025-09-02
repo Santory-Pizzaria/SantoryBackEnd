@@ -53,8 +53,14 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Usuario)
-admin.site.register(models.Produto) 
+admin.site.register(models.Bebida)
+admin.site.register(models.Carrinho)
+admin.site.register(models.CarrinhoItem)
+admin.site.register(models.Combo)
 admin.site.register(models.Endereco)
-admin.site.register(models.Pedido)
 admin.site.register(models.ItemPedido)
+admin.site.register(models.Pedido)
+admin.site.register(models.Pizza)
+admin.site.register(models.Produto) 
+admin.site.register(models.Reserva)
 admin.site.site_header = 'Administração do Sistema'
