@@ -157,6 +157,13 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
+DJOSER = {
+    'SERIALIZERS': {
+        'user_create': 'core.serializers.user.UserSerializer',
+        'user': 'core.serializers.user.UserSerializer',
+    }
+}
+
 PASSAGE_APP_ID = os.getenv('PASSAGE_APP_ID', 'app_id')
 PASSAGE_API_KEY = os.getenv('PASSAGE_API_KEY', 'api_key')
 PASSAGE_AUTH_STRATEGY = 2
