@@ -1,3 +1,4 @@
+
 [
 {
   "model": "auth.permission",
@@ -396,6 +397,222 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add bebida",
+    "content_type": 12,
+    "codename": "add_bebida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change bebida",
+    "content_type": 12,
+    "codename": "change_bebida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete bebida",
+    "content_type": 12,
+    "codename": "delete_bebida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view bebida",
+    "content_type": 12,
+    "codename": "view_bebida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add pizza",
+    "content_type": 13,
+    "codename": "add_pizza"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change pizza",
+    "content_type": 13,
+    "codename": "change_pizza"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete pizza",
+    "content_type": 13,
+    "codename": "delete_pizza"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view pizza",
+    "content_type": 13,
+    "codename": "view_pizza"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add carrinho",
+    "content_type": 14,
+    "codename": "add_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change carrinho",
+    "content_type": 14,
+    "codename": "change_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete carrinho",
+    "content_type": 14,
+    "codename": "delete_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view carrinho",
+    "content_type": 14,
+    "codename": "view_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add carrinho item",
+    "content_type": 15,
+    "codename": "add_carrinhoitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change carrinho item",
+    "content_type": 15,
+    "codename": "change_carrinhoitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete carrinho item",
+    "content_type": 15,
+    "codename": "delete_carrinhoitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view carrinho item",
+    "content_type": 15,
+    "codename": "view_carrinhoitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add combo",
+    "content_type": 16,
+    "codename": "add_combo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change combo",
+    "content_type": 16,
+    "codename": "change_combo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete combo",
+    "content_type": 16,
+    "codename": "delete_combo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view combo",
+    "content_type": 16,
+    "codename": "view_combo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add reserva",
+    "content_type": 17,
+    "codename": "add_reserva"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change reserva",
+    "content_type": 17,
+    "codename": "change_reserva"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete reserva",
+    "content_type": 17,
+    "codename": "delete_reserva"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view reserva",
+    "content_type": 17,
+    "codename": "view_reserva"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -484,6 +701,94 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "core",
+    "model": "bebida"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "core",
+    "model": "pizza"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "core",
+    "model": "carrinho"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "core",
+    "model": "carrinhoitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "core",
+    "model": "combo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "core",
+    "model": "reserva"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2vdssfn3cxtipc497wjoqbu2wtgjkm7u",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urKQu:knVSHa-fo8NwrVfY-nFUCKAzgh3KYgc72hw8er5oGvg",
+    "expire_date": "2025-09-10T17:59:40.233Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "91bwzj181thmh647s7bz05n0xhmdbw97",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urKL8:MXdwJaOeBE5wHXsXNM91FsKraDxBCgW_--uZ0GDrkL8",
+    "expire_date": "2025-09-10T17:53:42.431Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dorx0g7d9h85ibwz9qsdfgepw5o1sudw",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8Bgou3fsNZBhAqoYmpV0Z_11JutDlvefkvFjAfath73kNc2JnBuz0-0WkR24DpDu228Jpads6Rz4UftDOr0vKz8vh_gUq9jqyyoDPTidtSVkDACgnFNJqkMISaDBRJCeLAfediqKeHESEQp5K9Oz9AaQzNuA:1uwOht:23h5RnBVUUpYxF3o6_xI5SBfnUeY0YBHWFrAQ3mlpKE",
+    "expire_date": "2025-09-24T17:34:09.565Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lgy43cisz5j6hkaop0cp9op4qqh9py4i",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8Bgou3fsNZBhAqoYmpV0Z_11JutDlvefkvFjAfath73kNc2JnBuz0-0WkR24DpDu228Jpads6Rz4UftDOr0vKz8vh_gUq9jqyyoDPTidtSVkDACgnFNJqkMISaDBRJCeLAfediqKeHESEQp5K9Oz9AaQzNuA:1uw4Hg:fwrI4QYyOttT0qYX0hL44nh2pzqW0GuowwPSuJ_yyoo",
+    "expire_date": "2025-09-23T19:45:44.339Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z0p73d41sd50r1byy0wmaw5roctn72xw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urxAC:FidX9cYBbSk1ZHT9eBzU710FSjhZjANIrkO9wUV-Ilo",
+    "expire_date": "2025-09-12T11:21:00.140Z"
+  }
+},
+{
   "model": "core.user",
   "pk": 2,
   "fields": {
@@ -495,6 +800,54 @@
     "name": null,
     "is_active": true,
     "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$eDOWUWOX7IXqLi6ogpOvsE$UtrX6bDoNzeOfZKrrLZWYrutRIVghgqZXI9K6ACF86s=",
+    "last_login": "2025-08-29T11:21:00.113Z",
+    "is_superuser": true,
+    "passage_id": "",
+    "email": "adm@a.com",
+    "name": null,
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$HiLzjrqkLU1J0Guj7Lyz9O$EH7tEpiuSmkbcy5nKewCh85ONhRaJ5d41kYRmIOgnK8=",
+    "last_login": "2025-09-10T17:34:09.534Z",
+    "is_superuser": true,
+    "passage_id": null,
+    "email": "matheusgaspar29.if@gmail.com",
+    "name": "Gaspar",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$QNFqEXbnUgHiOe2FEAsjuL$EeaXJKSk0zoGB8TJjsOA8s+Je6ZpNr7fbFEoJupyc8c=",
+    "last_login": null,
+    "is_superuser": false,
+    "passage_id": null,
+    "email": "pedrinho@gmail.com",
+    "name": "Pedrin da Roça",
+    "is_active": true,
+    "is_staff": false,
     "groups": [],
     "user_permissions": []
   }
