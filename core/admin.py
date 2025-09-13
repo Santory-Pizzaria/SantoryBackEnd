@@ -63,4 +63,5 @@ admin.site.register(models.Pedido)
 admin.site.register(models.Pizza)
 admin.site.register(models.Produto) 
 admin.site.register(models.Reserva)
+admin.site.register(models.Feedback)
 admin.site.site_header = 'Administração do Sistema'

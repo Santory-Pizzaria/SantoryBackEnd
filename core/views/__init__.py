@@ -5,6 +5,7 @@ from .carrinho import CarrinhoViewSet
 from .carrinhoItem import CarrinhoItemViewSet
 from .combo import ComboViewSet
 from .endereco import EnderecoViewSet
+from .feedback import FeedbackViewSet
 from .itempedido import ItemPedidoViewSet
 from .pedido import PedidoViewSet
 from .pizza import PizzaViewSet

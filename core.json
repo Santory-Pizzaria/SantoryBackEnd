@@ -1,4 +1,3 @@
-
 [
 {
   "model": "auth.permission",
@@ -184,432 +183,432 @@
   "model": "auth.permission",
   "pk": 21,
   "fields": {
-    "name": "Can add Usuário",
+    "name": "Can add bebida",
     "content_type": 6,
-    "codename": "add_user"
+    "codename": "add_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 22,
   "fields": {
-    "name": "Can change Usuário",
+    "name": "Can change bebida",
     "content_type": 6,
-    "codename": "change_user"
+    "codename": "change_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 23,
   "fields": {
-    "name": "Can delete Usuário",
+    "name": "Can delete bebida",
     "content_type": 6,
-    "codename": "delete_user"
+    "codename": "delete_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 24,
   "fields": {
-    "name": "Can view Usuário",
+    "name": "Can view bebida",
     "content_type": 6,
-    "codename": "view_user"
+    "codename": "view_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add usuario",
+    "name": "Can add endereco",
     "content_type": 7,
-    "codename": "add_usuario"
+    "codename": "add_endereco"
   }
 },
 {
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change usuario",
+    "name": "Can change endereco",
     "content_type": 7,
-    "codename": "change_usuario"
+    "codename": "change_endereco"
   }
 },
 {
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete usuario",
+    "name": "Can delete endereco",
     "content_type": 7,
-    "codename": "delete_usuario"
+    "codename": "delete_endereco"
   }
 },
 {
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view usuario",
+    "name": "Can view endereco",
     "content_type": 7,
-    "codename": "view_usuario"
+    "codename": "view_endereco"
   }
 },
 {
   "model": "auth.permission",
   "pk": 29,
   "fields": {
-    "name": "Can add produto",
+    "name": "Can add pizza",
     "content_type": 8,
-    "codename": "add_produto"
+    "codename": "add_pizza"
   }
 },
 {
   "model": "auth.permission",
   "pk": 30,
   "fields": {
-    "name": "Can change produto",
+    "name": "Can change pizza",
     "content_type": 8,
-    "codename": "change_produto"
+    "codename": "change_pizza"
   }
 },
 {
   "model": "auth.permission",
   "pk": 31,
   "fields": {
-    "name": "Can delete produto",
+    "name": "Can delete pizza",
     "content_type": 8,
-    "codename": "delete_produto"
+    "codename": "delete_pizza"
   }
 },
 {
   "model": "auth.permission",
   "pk": 32,
   "fields": {
-    "name": "Can view produto",
+    "name": "Can view pizza",
     "content_type": 8,
-    "codename": "view_produto"
+    "codename": "view_pizza"
   }
 },
 {
   "model": "auth.permission",
   "pk": 33,
   "fields": {
-    "name": "Can add endereco",
+    "name": "Can add produto",
     "content_type": 9,
-    "codename": "add_endereco"
+    "codename": "add_produto"
   }
 },
 {
   "model": "auth.permission",
   "pk": 34,
   "fields": {
-    "name": "Can change endereco",
+    "name": "Can change produto",
     "content_type": 9,
-    "codename": "change_endereco"
+    "codename": "change_produto"
   }
 },
 {
   "model": "auth.permission",
   "pk": 35,
   "fields": {
-    "name": "Can delete endereco",
+    "name": "Can delete produto",
     "content_type": 9,
-    "codename": "delete_endereco"
+    "codename": "delete_produto"
   }
 },
 {
   "model": "auth.permission",
   "pk": 36,
   "fields": {
-    "name": "Can view endereco",
+    "name": "Can view produto",
     "content_type": 9,
-    "codename": "view_endereco"
+    "codename": "view_produto"
   }
 },
 {
   "model": "auth.permission",
   "pk": 37,
   "fields": {
-    "name": "Can add pedido",
+    "name": "Can add Usu�rio",
     "content_type": 10,
-    "codename": "add_pedido"
+    "codename": "add_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 38,
   "fields": {
-    "name": "Can change pedido",
+    "name": "Can change Usu�rio",
     "content_type": 10,
-    "codename": "change_pedido"
+    "codename": "change_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 39,
   "fields": {
-    "name": "Can delete pedido",
+    "name": "Can delete Usu�rio",
     "content_type": 10,
-    "codename": "delete_pedido"
+    "codename": "delete_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 40,
   "fields": {
-    "name": "Can view pedido",
+    "name": "Can view Usu�rio",
     "content_type": 10,
-    "codename": "view_pedido"
+    "codename": "view_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 41,
   "fields": {
-    "name": "Can add item pedido",
+    "name": "Can add carrinho",
     "content_type": 11,
-    "codename": "add_itempedido"
+    "codename": "add_carrinho"
   }
 },
 {
   "model": "auth.permission",
   "pk": 42,
   "fields": {
-    "name": "Can change item pedido",
+    "name": "Can change carrinho",
     "content_type": 11,
-    "codename": "change_itempedido"
+    "codename": "change_carrinho"
   }
 },
 {
   "model": "auth.permission",
   "pk": 43,
   "fields": {
-    "name": "Can delete item pedido",
+    "name": "Can delete carrinho",
     "content_type": 11,
-    "codename": "delete_itempedido"
+    "codename": "delete_carrinho"
   }
 },
 {
   "model": "auth.permission",
   "pk": 44,
   "fields": {
-    "name": "Can view item pedido",
+    "name": "Can view carrinho",
     "content_type": 11,
-    "codename": "view_itempedido"
+    "codename": "view_carrinho"
   }
 },
 {
   "model": "auth.permission",
   "pk": 45,
   "fields": {
-    "name": "Can add bebida",
+    "name": "Can add carrinho item",
     "content_type": 12,
-    "codename": "add_bebida"
+    "codename": "add_carrinhoitem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 46,
   "fields": {
-    "name": "Can change bebida",
+    "name": "Can change carrinho item",
     "content_type": 12,
-    "codename": "change_bebida"
+    "codename": "change_carrinhoitem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 47,
   "fields": {
-    "name": "Can delete bebida",
+    "name": "Can delete carrinho item",
     "content_type": 12,
-    "codename": "delete_bebida"
+    "codename": "delete_carrinhoitem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 48,
   "fields": {
-    "name": "Can view bebida",
+    "name": "Can view carrinho item",
     "content_type": 12,
-    "codename": "view_bebida"
+    "codename": "view_carrinhoitem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 49,
   "fields": {
-    "name": "Can add pizza",
+    "name": "Can add pedido",
     "content_type": 13,
-    "codename": "add_pizza"
+    "codename": "add_pedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 50,
   "fields": {
-    "name": "Can change pizza",
+    "name": "Can change pedido",
     "content_type": 13,
-    "codename": "change_pizza"
+    "codename": "change_pedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 51,
   "fields": {
-    "name": "Can delete pizza",
+    "name": "Can delete pedido",
     "content_type": 13,
-    "codename": "delete_pizza"
+    "codename": "delete_pedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 52,
   "fields": {
-    "name": "Can view pizza",
+    "name": "Can view pedido",
     "content_type": 13,
-    "codename": "view_pizza"
+    "codename": "view_pedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 53,
   "fields": {
-    "name": "Can add carrinho",
+    "name": "Can add combo",
     "content_type": 14,
-    "codename": "add_carrinho"
+    "codename": "add_combo"
   }
 },
 {
   "model": "auth.permission",
   "pk": 54,
   "fields": {
-    "name": "Can change carrinho",
+    "name": "Can change combo",
     "content_type": 14,
-    "codename": "change_carrinho"
+    "codename": "change_combo"
   }
 },
 {
   "model": "auth.permission",
   "pk": 55,
   "fields": {
-    "name": "Can delete carrinho",
+    "name": "Can delete combo",
     "content_type": 14,
-    "codename": "delete_carrinho"
+    "codename": "delete_combo"
   }
 },
 {
   "model": "auth.permission",
   "pk": 56,
   "fields": {
-    "name": "Can view carrinho",
+    "name": "Can view combo",
     "content_type": 14,
-    "codename": "view_carrinho"
+    "codename": "view_combo"
   }
 },
 {
   "model": "auth.permission",
   "pk": 57,
   "fields": {
-    "name": "Can add carrinho item",
+    "name": "Can add item pedido",
     "content_type": 15,
-    "codename": "add_carrinhoitem"
+    "codename": "add_itempedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 58,
   "fields": {
-    "name": "Can change carrinho item",
+    "name": "Can change item pedido",
     "content_type": 15,
-    "codename": "change_carrinhoitem"
+    "codename": "change_itempedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 59,
   "fields": {
-    "name": "Can delete carrinho item",
+    "name": "Can delete item pedido",
     "content_type": 15,
-    "codename": "delete_carrinhoitem"
+    "codename": "delete_itempedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 60,
   "fields": {
-    "name": "Can view carrinho item",
+    "name": "Can view item pedido",
     "content_type": 15,
-    "codename": "view_carrinhoitem"
+    "codename": "view_itempedido"
   }
 },
 {
   "model": "auth.permission",
   "pk": 61,
   "fields": {
-    "name": "Can add combo",
+    "name": "Can add reserva",
     "content_type": 16,
-    "codename": "add_combo"
+    "codename": "add_reserva"
   }
 },
 {
   "model": "auth.permission",
   "pk": 62,
   "fields": {
-    "name": "Can change combo",
+    "name": "Can change reserva",
     "content_type": 16,
-    "codename": "change_combo"
+    "codename": "change_reserva"
   }
 },
 {
   "model": "auth.permission",
   "pk": 63,
   "fields": {
-    "name": "Can delete combo",
+    "name": "Can delete reserva",
     "content_type": 16,
-    "codename": "delete_combo"
+    "codename": "delete_reserva"
   }
 },
 {
   "model": "auth.permission",
   "pk": 64,
   "fields": {
-    "name": "Can view combo",
+    "name": "Can view reserva",
     "content_type": 16,
-    "codename": "view_combo"
+    "codename": "view_reserva"
   }
 },
 {
   "model": "auth.permission",
   "pk": 65,
   "fields": {
-    "name": "Can add reserva",
+    "name": "Can add usuario",
     "content_type": 17,
-    "codename": "add_reserva"
+    "codename": "add_usuario"
   }
 },
 {
   "model": "auth.permission",
   "pk": 66,
   "fields": {
-    "name": "Can change reserva",
+    "name": "Can change usuario",
     "content_type": 17,
-    "codename": "change_reserva"
+    "codename": "change_usuario"
   }
 },
 {
   "model": "auth.permission",
   "pk": 67,
   "fields": {
-    "name": "Can delete reserva",
+    "name": "Can delete usuario",
     "content_type": 17,
-    "codename": "delete_reserva"
+    "codename": "delete_usuario"
   }
 },
 {
   "model": "auth.permission",
   "pk": 68,
   "fields": {
-    "name": "Can view reserva",
+    "name": "Can view usuario",
     "content_type": 17,
-    "codename": "view_reserva"
+    "codename": "view_usuario"
   }
 },
 {
@@ -657,7 +656,7 @@
   "pk": 6,
   "fields": {
     "app_label": "core",
-    "model": "user"
+    "model": "bebida"
   }
 },
 {
@@ -665,7 +664,7 @@
   "pk": 7,
   "fields": {
     "app_label": "core",
-    "model": "usuario"
+    "model": "endereco"
   }
 },
 {
@@ -673,7 +672,7 @@
   "pk": 8,
   "fields": {
     "app_label": "core",
-    "model": "produto"
+    "model": "pizza"
   }
 },
 {
@@ -681,7 +680,7 @@
   "pk": 9,
   "fields": {
     "app_label": "core",
-    "model": "endereco"
+    "model": "produto"
   }
 },
 {
@@ -689,7 +688,7 @@
   "pk": 10,
   "fields": {
     "app_label": "core",
-    "model": "pedido"
+    "model": "user"
   }
 },
 {
@@ -697,7 +696,7 @@
   "pk": 11,
   "fields": {
     "app_label": "core",
-    "model": "itempedido"
+    "model": "carrinho"
   }
 },
 {
@@ -705,7 +704,7 @@
   "pk": 12,
   "fields": {
     "app_label": "core",
-    "model": "bebida"
+    "model": "carrinhoitem"
   }
 },
 {
@@ -713,7 +712,7 @@
   "pk": 13,
   "fields": {
     "app_label": "core",
-    "model": "pizza"
+    "model": "pedido"
   }
 },
 {
@@ -721,7 +720,7 @@
   "pk": 14,
   "fields": {
     "app_label": "core",
-    "model": "carrinho"
+    "model": "combo"
   }
 },
 {
@@ -729,7 +728,7 @@
   "pk": 15,
   "fields": {
     "app_label": "core",
-    "model": "carrinhoitem"
+    "model": "itempedido"
   }
 },
 {
@@ -737,7 +736,7 @@
   "pk": 16,
   "fields": {
     "app_label": "core",
-    "model": "combo"
+    "model": "reserva"
   }
 },
 {
@@ -745,111 +744,7 @@
   "pk": 17,
   "fields": {
     "app_label": "core",
-    "model": "reserva"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "2vdssfn3cxtipc497wjoqbu2wtgjkm7u",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urKQu:knVSHa-fo8NwrVfY-nFUCKAzgh3KYgc72hw8er5oGvg",
-    "expire_date": "2025-09-10T17:59:40.233Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "91bwzj181thmh647s7bz05n0xhmdbw97",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urKL8:MXdwJaOeBE5wHXsXNM91FsKraDxBCgW_--uZ0GDrkL8",
-    "expire_date": "2025-09-10T17:53:42.431Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "dorx0g7d9h85ibwz9qsdfgepw5o1sudw",
-  "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSE8Bgou3fsNZBhAqoYmpV0Z_11JutDlvefkvFjAfath73kNc2JnBuz0-0WkR24DpDu228Jpads6Rz4UftDOr0vKz8vh_gUq9jqyyoDPTidtSVkDACgnFNJqkMISaDBRJCeLAfediqKeHESEQp5K9Oz9AaQzNuA:1uwOht:23h5RnBVUUpYxF3o6_xI5SBfnUeY0YBHWFrAQ3mlpKE",
-    "expire_date": "2025-09-24T17:34:09.565Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "lgy43cisz5j6hkaop0cp9op4qqh9py4i",
-  "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSE8Bgou3fsNZBhAqoYmpV0Z_11JutDlvefkvFjAfath73kNc2JnBuz0-0WkR24DpDu228Jpads6Rz4UftDOr0vKz8vh_gUq9jqyyoDPTidtSVkDACgnFNJqkMISaDBRJCeLAfediqKeHESEQp5K9Oz9AaQzNuA:1uw4Hg:fwrI4QYyOttT0qYX0hL44nh2pzqW0GuowwPSuJ_yyoo",
-    "expire_date": "2025-09-23T19:45:44.339Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "z0p73d41sd50r1byy0wmaw5roctn72xw",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAURO_C2hDg0wIu3fcM5MMHqRqalHZlvLs06UJ3k3lv5s087lvxe0urn4ldGbDLbxcwPlM9AD2w3hcel7qtc-CHwk_a-LRQet1O9--gYCt9bVDSqIUF4WSPypCLqLVyQKDyMIAAq2LWuUs0BochoHVIWUpjVQD2-QLEqDdm:1urxAC:FidX9cYBbSk1ZHT9eBzU710FSjhZjANIrkO9wUV-Ilo",
-    "expire_date": "2025-09-12T11:21:00.140Z"
-  }
-},
-{
-  "model": "core.user",
-  "pk": 2,
-  "fields": {
-    "password": "teste.123",
-    "last_login": null,
-    "is_superuser": true,
-    "passage_id": "0",
-    "email": "a@a.com",
-    "name": null,
-    "is_active": true,
-    "is_staff": true,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "core.user",
-  "pk": 3,
-  "fields": {
-    "password": "pbkdf2_sha256$870000$eDOWUWOX7IXqLi6ogpOvsE$UtrX6bDoNzeOfZKrrLZWYrutRIVghgqZXI9K6ACF86s=",
-    "last_login": "2025-08-29T11:21:00.113Z",
-    "is_superuser": true,
-    "passage_id": "",
-    "email": "adm@a.com",
-    "name": null,
-    "is_active": true,
-    "is_staff": true,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "core.user",
-  "pk": 4,
-  "fields": {
-    "password": "pbkdf2_sha256$870000$HiLzjrqkLU1J0Guj7Lyz9O$EH7tEpiuSmkbcy5nKewCh85ONhRaJ5d41kYRmIOgnK8=",
-    "last_login": "2025-09-10T17:34:09.534Z",
-    "is_superuser": true,
-    "passage_id": null,
-    "email": "matheusgaspar29.if@gmail.com",
-    "name": "Gaspar",
-    "is_active": true,
-    "is_staff": true,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "core.user",
-  "pk": 6,
-  "fields": {
-    "password": "pbkdf2_sha256$870000$QNFqEXbnUgHiOe2FEAsjuL$EeaXJKSk0zoGB8TJjsOA8s+Je6ZpNr7fbFEoJupyc8c=",
-    "last_login": null,
-    "is_superuser": false,
-    "passage_id": null,
-    "email": "pedrinho@gmail.com",
-    "name": "Pedrin da Roça",
-    "is_active": true,
-    "is_staff": false,
-    "groups": [],
-    "user_permissions": []
+    "model": "usuario"
   }
 }
 ]

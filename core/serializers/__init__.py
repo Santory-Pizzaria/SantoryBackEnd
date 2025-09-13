@@ -5,6 +5,7 @@ from .carrinho import CarrinhoSerializer
 from .carrinhoItem import CarrinhoItemSerializer
 from .combo import ComboSerializer
 from .endereco import EnderecoSerializer
+from .feedback import FeedbackSerializer
 from .itempedido import ItemPedidoSerializer
 from .pedido import PedidoSerializer
 from .pizza import PizzaSerializer

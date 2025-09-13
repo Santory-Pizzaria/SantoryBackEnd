@@ -9,12 +9,14 @@ from rest_framework.routers import DefaultRouter
 
 from core.views import EnderecoViewSet, ItemPedidoViewSet, PedidoViewSet, ProdutoViewSet, UserViewSet, UsuarioViewSet
 from core.views import BebidaViewSet, CarrinhoViewSet, CarrinhoItemViewSet, ComboViewSet, ReservaViewSet, PizzaViewSet
+from core.views import FeedbackViewSet
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'usuario', UsuarioViewSet, basename='usuario')
 router.register(r'produtos', ProdutoViewSet, basename='produto')
 router.register(r'endereco', EnderecoViewSet, basename='endereco')
+router.register(r'feedbacks', FeedbackViewSet, basename='feedback')
 router.register(r'pedidos', PedidoViewSet, basename='pedido')
 router.register(r'itempedido', ItemPedidoViewSet, basename='itempedido')
 router.register(r'reservas', ReservaViewSet, basename='reserva')
@@ -38,6 +40,7 @@ urlpatterns = [
         SpectacularRedocView.as_view(url_name='schema'),
         name='redoc',
     ),
+    path('api/feedbacks/', FeedbackListCreateView.as_view(), name='feedback-list-create'),
     # API
     path('api/', include(router.urls)),
     path('api/auth/', include('djoser.urls')),

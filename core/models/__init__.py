@@ -5,6 +5,7 @@ from .carrinho import Carrinho
 from .carrinhoItem import CarrinhoItem
 from .combo import Combo
 from .endereco import Endereco
+from .feedback import Feedback
 from .itempedido import ItemPedido
 from .pedido import Pedido
 from .pizza import Pizza
