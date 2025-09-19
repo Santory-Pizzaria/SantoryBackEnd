@@ -40,7 +40,6 @@ urlpatterns = [
         SpectacularRedocView.as_view(url_name='schema'),
         name='redoc',
     ),
-    path('api/feedbacks/', FeedbackListCreateView.as_view(), name='feedback-list-create'),
     # API
     path('api/', include(router.urls)),
     path('api/auth/', include('djoser.urls')),
