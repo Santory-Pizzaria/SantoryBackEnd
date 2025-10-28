@@ -7,5 +7,5 @@ class Pizza(models.Model):
     imagem = models.ImageField(upload_to='pizzas/', blank=True, null=True)
     sabores = models.CharField(max_length=200)
     
-def __str__(self):
-        return f"{self.id} - {self.nome} - {self.preco}"
+    def __str__(self):
+            return f"{self.id} - {self.nome} - {self.preco}"

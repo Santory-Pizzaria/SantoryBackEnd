@@ -4,6 +4,7 @@ from pathlib import Path
 import dj_database_url
 from dotenv import load_dotenv
 
+
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
 
@@ -54,6 +55,7 @@ MIDDLEWARE = [
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://localhost:5174",
 ]
 
 ROOT_URLCONF = 'app.urls'
@@ -78,11 +80,19 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 # Databases
 DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',
-        conn_max_age=600,
-        conn_health_checks=True,
-    )
+    #'default': dj_database_url.config(
+    #    default='sqlite:///db.sqlite3',
+    #    conn_max_age=600,
+    #    conn_health_checks=True,
+    #)
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres.jcemthumokxtamgdmbwv',
+        'PASSWORD': 'Morangogaspar29',
+        'HOST': 'aws-1-sa-east-1.pooler.supabase.com',
+        'PORT': 5432,
+    }
 }
 
 # Password validation
@@ -149,6 +159,9 @@ AUTH_USER_MODEL = 'core.User'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
     ),
     # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly",),
     'DEFAULT_PAGINATION_CLASS': 'app.pagination.CustomPagination',

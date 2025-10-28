@@ -5,4 +5,3 @@ from core.serializers.carrinho import CarrinhoSerializer
 class CarrinhoViewSet(viewsets.ModelViewSet):
     queryset = Carrinho.objects.all()
     serializer_class = CarrinhoSerializer
-    

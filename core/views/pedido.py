@@ -1,4 +1,4 @@
-from rest_framework import viewsets, permissions
+from rest_framework import viewsets
 from core.models import Pedido
 from core.serializers import PedidoSerializer
 from rest_framework.response import Response
@@ -10,16 +10,11 @@ class PedidoViewSet(viewsets.ModelViewSet):
     queryset = Pedido.objects.all().order_by('-criado_em')
     serializer_class = PedidoSerializer
 
-    def get_permissions(self):
-        if self.action in ['create']:
-            return [permissions.IsAuthenticated()]
-        return [permissions.AllowAny()]
-
     def perform_create(self, serializer):
         # garante que o pedido será associado ao usuário autenticado
         serializer.save(usuario=self.request.user)
 
-    @action(detail=False, methods=['get'], permission_classes=[permissions.IsAuthenticated])
+    @action(detail=False, methods=['get'])
     def meus(self, request):
         qs = Pedido.objects.filter(usuario=request.user).order_by('-criado_em')
         page = self.paginate_queryset(qs)

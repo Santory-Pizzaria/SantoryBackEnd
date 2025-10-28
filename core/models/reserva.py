@@ -4,7 +4,7 @@ from core.models.user import User
 class Reserva(models.Model):
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
     data = models.DateTimeField()
-    mesa = models.IntegerField()
+    mesa = models.IntegerField(null=True, blank=True)
     quantidade_pessoas = models.PositiveIntegerField()
     horario = models.TimeField()
 

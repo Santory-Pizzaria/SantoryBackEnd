@@ -5,4 +5,3 @@ from core.serializers.bebida import BebidaSerializer
 class BebidaViewSet(viewsets.ModelViewSet):
     queryset = Bebida.objects.all()
     serializer_class = BebidaSerializer
-    
