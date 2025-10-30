@@ -3,5 +3,5 @@ from core.models import Pizza
 from core.serializers.pizza import PizzaSerializer
 
 class PizzaViewSet(viewsets.ModelViewSet):
-    queryset = Pizza.objects.all()
-    serializer_class = PizzaSerializer
+    queryset = Pizza.objects.all().order_by('id')  # Adicione a ordenação padrão aqui
+    serializer_class = PizzaSerializer  
