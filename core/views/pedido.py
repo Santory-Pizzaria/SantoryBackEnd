@@ -5,6 +5,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import status
+from rest_framework.views import APIView
 
 
 class PedidoViewSet(viewsets.ModelViewSet):
@@ -24,3 +25,18 @@ class PedidoViewSet(viewsets.ModelViewSet):
             return Response({'detail': 'Usuário não autenticado'}, status=status.HTTP_401_UNAUTHORIZED)
         serializer = self.get_serializer(user)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+    @action(detail=False, methods=['get'], url_path='meus-pedidos')
+    def meus_pedidos(self, request):
+        pedidos = Pedido.objects.filter(usuario=request.user)
+        serializer = self.get_serializer(pedidos, many=True)
+        return Response(serializer.data)
+
+
+class PedidoUsuarioListView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        pedidos = Pedido.objects.filter(usuario=request.user)
+        serializer = PedidoSerializer(pedidos, many=True)
+        return Response(serializer.data)

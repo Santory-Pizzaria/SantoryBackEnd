@@ -14,6 +14,8 @@ from uploader.router import router as uploader_router
 from core.views import EnderecoViewSet, ItemPedidoViewSet, PedidoViewSet, ProdutoViewSet, UserViewSet, UsuarioViewSet
 from core.views import BebidaViewSet, CarrinhoViewSet, CarrinhoItemViewSet, ComboViewSet, ReservaViewSet, PizzaViewSet
 from core.views import FeedbackViewSet
+from core.views.reserva import ReservaUsuarioListView
+
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
@@ -52,3 +54,7 @@ urlpatterns = [
 ]
 
 urlpatterns += static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += [
+    path('api/reservas/', ReservaUsuarioListView.as_view(), name='reservas-usuario'),
+]
